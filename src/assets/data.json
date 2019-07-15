@@ -1,0 +1,174 @@
+{
+  "companies": [
+    {
+      "company_id": "fjkevmnkvcxjio4581848rs",
+      "company_name": "Gregs Pickle Supplies",
+      "owner_fName": "Greg",
+      "owner_lName": "Johnson",
+      "contact_fName": "Greg",
+      "contact_lName": "Johnson",
+      "contact_title": "CEO",
+      "phone_1": 2093902109,
+      "phone_2": 2095862190,
+      "email_1": "gregsPickleSupplies@yahoo.com",
+      "email_2": "gregsNumber2@yahoo.com",
+      "website": "https://www.gregssupgergaywebsite.com",
+      "notes": "This is gregs main site.  We need to add more pickles to it... Like.... Alot more pickles.",
+      "projects": [
+        {
+          "0": "jfkdljsaklj904932jlkfld",
+          "1": "iroewjfkldjsa85493fjdkf"
+        }
+      ]
+    },
+    {
+      "company_id": "fjasqlklfsss049320vjkfa",
+      "company_name": "Gabriels sheeps",
+      "owner_fName": "Gabriel",
+      "owner_lName": "Davis",
+      "contact_fName": "Greg",
+      "contact_lName": "Johnson",
+      "contact_title": "CEO",
+      "phone_1": 2093905490,
+      "phone_2": 2095862110,
+      "email_1": "gabrielsSheeps@yahoo.com",
+      "email_2": "gabrielReallyLikesSheep@yahoo.com",
+      "website": "https://www.gabesSheepsAndPickles.com",
+      "notes": "This is gabriels main site.... He really likes Sheep.... Like, too much.  So hes asked if we can add more sheep.",
+      "projects": [
+        {
+          "0": "4h32jfjdksvncmrjekwpZo4",
+          "1": "vnkcdnoifjdk41784fdksjf",
+          "2": "gjklmfjfk994390fjksxmbm"
+        }
+      ]
+    },
+    {
+      "company_id": "59ijkjdsfj90r90jfdjklar",
+      "company_name": "Cory's Intense Wall Watching Adventure",
+      "owner_fName": "Cory",
+      "owner_lName": "Green",
+      "contact_fName": "Greg",
+      "contact_lName": "Johnson",
+      "contact_title": "CEO",
+      "phone_1": 2093523633,
+      "phone_2": 2095863456,
+      "email_1": "corygreen84@hotmail.com",
+      "email_2": "scary_penguins05@hotmail.com",
+      "website": "https://www.intensewallwatching.com",
+      "notes": "Cory has stated that he wants more pictures of walls on his site.  We told him he needs therapy.",
+      "projects": [
+        {
+          "0": "4h32jfjdksvncmrjekwpZo4"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "project_id": "jfkdljsaklj904932jlkfld",
+      "company": "fjkevmnkvcxjio4581848rs",
+      "project_name": "Gregs Pickle Supplies main Site",
+      "type": "website",
+      "platform": [
+        {
+          "0": "web"
+        }
+      ],
+      "hours_worked": 10,
+      "est_cost": 1500.0,
+      "our_cost": 1500.0,
+      "tot_cost": 3000.0,
+      "paid": true,
+      "notes": "Notes here"
+    },
+    {
+      "project_id": "iroewjfkldjsa85493fjdkf",
+      "company": "fjkevmnkvcxjio4581848rs",
+      "project_name": "Gregs Pickle Supplies mobile site",
+      "type": "mobile",
+      "platform": [
+        {
+          "0": "ios",
+          "2": "android"
+        }
+      ],
+      "hours_worked": 2,
+      "est_cost": 500.0,
+      "our_cost": 200.0,
+      "tot_cost": 700.0,
+      "paid": true,
+      "notes": "Notes here"
+    },
+    {
+      "project_id": "4h32jfjdksvncmrjekwpZo4",
+      "company": "fjasqlklfsss049320vjkfa",
+      "project_name": "Gabriels sheeps main site",
+      "type": "website",
+      "platform": [
+        {
+          "0": "web"
+        }
+      ],
+      "hours_worked": 6,
+      "est_cost": 800.0,
+      "our_cost": 800.0,
+      "tot_cost": 1600.0,
+      "paid": true,
+      "notes": "Notes here"
+    },
+    {
+      "project_id": "vnkcdnoifjdk41784fdksjf",
+      "company": "fjasqlklfsss049320vjkfa",
+      "project_name": "Gabriels sheeps mobile site",
+      "type": "mobile",
+      "platform": [
+        {
+          "0": "ios",
+          "1": "android"
+        }
+      ],
+      "hours_worked": 10,
+      "est_cost": 1200.0,
+      "our_cost": 1000.0,
+      "tot_cost": 2200.0,
+      "paid": true,
+      "notes": "Notes here"
+    },
+    {
+      "project_id": "gjklmfjfk994390fjksxmbm",
+      "company": "fjasqlklfsss049320vjkfa",
+      "project_name": "Gabriels sheeps graphic design",
+      "type": "graphic",
+      "platform": [
+        {
+          "0": "print",
+          "1": "design"
+        }
+      ],
+      "hours_worked": 2,
+      "est_cost": 200.0,
+      "our_cost": 100.0,
+      "tot_cost": 300.0,
+      "paid": true,
+      "notes": "Notes here"
+    },
+    {
+      "project_id": "4h32jfjdksvncmrjekwpZo4",
+      "company": "59ijkjdsfj90r90jfdjklar",
+      "project_name": "Cory Greens Intense wall staring website clean up",
+      "type": "website",
+      "platform": [
+        {
+          "0": "web"
+        }
+      ],
+      "hours_worked": 2,
+      "est_cost": 200.0,
+      "our_cost": 100.0,
+      "tot_cost": 300.0,
+      "paid": true,
+      "notes": "Notes here"
+    }
+  ]
+}

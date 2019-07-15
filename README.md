@@ -1,2 +1,0 @@
-# CustomerProjectRelationManager
-Created with CodeSandbox
