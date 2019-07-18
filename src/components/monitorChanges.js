@@ -3,6 +3,8 @@ var db = firebase.firestore();
 
 var companyId = "fjkevmnkvcxjio4581848rs";
 
+var arrayOfJobs = [];
+
 // checking if the user has logged in //
 window.addEventListener('DOMContentLoaded', function () {
 
@@ -17,6 +19,19 @@ window.addEventListener('DOMContentLoaded', function () {
         }
     }).catch(function(error){
         console.log("there was a catch error " + error);
+    });
+
+
+    var projectsRef = db.collection("projects");
+    projectsRef.onSnapshot(function(querySnapshot){
+
+		var data = querySnapshot.docs.map(function(documentSnapshot){
+
+			return documentSnapshot.data();
+        });	
+
+        parseProject(data);
+        
     });
 
 }, false);
@@ -37,6 +52,39 @@ function parseCompanyInfo(data){
     newCompany.phone_2 = data.phone_2;
     newCompany.projects = data.projects;
     newCompany.website = data.website; 
+
+    // we can now use the company info for whatever we need //
+}
+
+
+function parseProject(data){
+
+    arrayOfJobs = [];
+    for(var projects in data){
+
+        var project = data[projects];
+
+        var newProject = new Projects();
+        newProject.company = project.company;
+        newProject.est_cost = project.est_cost;
+        newProject.hours_worked = project.hours_worked;
+        newProject.notes = project.notes;
+        newProject.our_cost = project.our_cost;
+        newProject.platform = project.platform;
+        newProject.project_id = project.project_id;
+        newProject.project_name = project.project_name;
+        newProject.tot_cost = project.tot_cost;
+        newProject.type = project.type;
+
+        arrayOfJobs.push(newProject);
+    }
+
+
+    // we can now use the array of jobs where ever we want //
+
+    for(var i in arrayOfJobs){
+        console.log(arrayOfJobs[i].project_id);
+    }
 }
 
 
